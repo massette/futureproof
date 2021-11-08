@@ -66,7 +66,11 @@ App.get("/elec", function(req, res, next) {
 		"title": "The Future Proof",
 		"subtitle": "Electricity",
 		
-		"body": []
+		"body": [
+			{
+				"body": "Electricity has become such a significant part of daily life that we can no longer afford to ignore its sources and their consequences. In 2019, the US Energy Information Administration averaged the amount of CO2 produced per kilowatt-hour as 0.92 pounds, which totals about the same amount per day as burning a gallon of gasoline. Although we can hide behind the idea that the world is moving towards more sustainable methods of energy production, any source’s environmental impacts will be directly proportional to the amount of electricity we need to generate, so reducing the amount of energy we use will help no matter what developments may occur, especially because lower energy requirements will allow these developments to happen much more readily. In my household, the most significant contributors to our electricity consumption are lighting and water heating which collectively take up more than a quarter of the measured appliances’ power consumption. The first and simplest change to implement is to turn off the lights in rooms that we aren’t in.We’ve recently moved into a spooky little historic house, and on account of its spookiness, we tend to leave lights on without thinking about it. Although I don’t have any hard numbers on how much this would reduce our electricity consumption, it would be no more than 1.352 kilowatt-hours per day since that’s the amount that already goes to lighting our house. Of the two largest consumers -- the refrigerator and the water heater -- the water heater seems much easier to address. There are a lot of little changes we can make to reduce the water heater’s consumption of electricity, such as lowering its temperature to just lukewarm, as well as actually figuring out how the faucets in this house work, because they tend to be a bit temperamental, and we waste a lot of warm water every time we just turn them randomly and hope it works out. Once again, there aren't really any hard numbers for this idea, but it would be some amount less than 2.07 kilowatt-hours per day. This means a total reduction of at most 3.422 kilowatt-hours per day, or 1249.03 kilowatt-hours per year. Using the US Energy Information Administration’s 2019 estimate of CO2 produced per kilowatt-hour of power generated, this could result in as much as a 1149.12 pound decrease in our carbon footprint."
+			}
+		]
 	});
 });
 
@@ -75,7 +79,11 @@ App.get("/trans", function(req, res, next) {
 		"title": "The Future Proof",
 		"subtitle": "Transportation",
 		
-		"body": []
+		"body": [
+			{
+				"body": "The combustion of gasoline in our cars’ engines produces many harmful pollutants, one of the most well-known being carbon dioxide, as well as nitrogen oxides and sulfur. These pollutants contribute to both climate change and acid rain. By reducing our mileage, we can reduce our contributions to these issues. Furthermore, the extraction and refining of crude oil are costly and unsustainable operations. It requires tremendous amounts of energy and water, and by reducing our dependence on petroleum based products, we would reduce the need for these processes and reduce the strain they put on energy and water resources. Although my household only owns one car, and we don’t really fly anywhere, we make a lot of unnecessary trips. One of the biggest contributors to our mileage is trips to Duluth. Because we recently moved, we still have a lot of connections there, so we often end up going back and forth as many as 10 time a month. That is 120 trips a year, and even assuming a low estimate of 200 miles for the round trip, that totals 24,000 miles per year going back and forth to Duluth. There are many things we go to Duluth for that we could find replacements for closer to Rabun. For example, we still visit our old veterinarian in Buford, even though there are certainly veterinarians in the local area. Even if we were only able to reduce the number of trips to once per week, that would result in a reduction of 13,600 miles per year. Using the mileage for our car that we found in class, we can find the reduction in gallons of gas burned, we get a reduction of 503.7 gallons of gas per year. Going off of the US Energy Information Administration's estimate of carbon dioxide produced by burning gasoline, this would be a reduction of 8,905.42 pounds of carbon dioxide, as well as $1,661.71 that we wouldn’t spend on gas, going by the AAA average gas price in Rabun county."
+			}
+		]
 	});
 });
 
@@ -84,7 +92,11 @@ App.get("/water", function(req, res, next) {
 		"title": "The Future Proof",
 		"subtitle": "Water",
 		
-		"body": []
+		"body": [
+			{
+				"body": "While water consumption doesn’t initially seem that bad, the issue is that any water we use has to then be filtered and cleaned in order to be reused. Beyond that, water use often drains effectively finite resources of water stored underground, depriving the local area of a vital resource. Because of this it is vital that we monitor the ways in which we consume water, and the sources from which it comes. My household gets water from groundwater, and the two sources that use the most water per day are the toilet and the sinks. Mr. Phillips has provided a myriad of helpful tips to reduce the amount of water the toilet uses per flush, such as putting a brick in the tank. Assuming a brick of the dimensions 8 inches x 3 inches x 2 inches, this would result in a displacement of 0.21 gallons of water, reducing the water usage per day by 2.4 gallons. This totals 876 gallons per year of water that we wouldn’t be using. The only suggestion I have to limit the amount of faucet water we use is to simply stay aware of time whenever the faucet is running. It’s easy to just turn on the faucet and waste a minute or two, but that’s an unnecessary outflow of more than a quarter gallon. By simply being conscientious, without any further effort, we could save those precious few gallons."
+			}
+		]
 	});
 });
 
@@ -93,7 +105,11 @@ App.get("/waste", function(req, res, next) {
 		"title": "The Future Proof",
 		"subtitle": "Waste",
 		
-		"body": []
+		"body": [
+			{
+				"body": "Examining what we throw away shows us a lot about our impact on the environment. Not just what we contribute to landfills and recycling plants, but also what products we consume. Because our continued patronage of unsustainable products encourages industries to continue making them, in a way we are responsible not just for the cost of disposal, but also for the cost of creation. For many products, both of these processes are costly and rely on limited resources. The products that made up the majority of our garbage over the period that we measured were paper and plastic. We think of both of these as highly disposable products despite the fact that both take a long time to break down. Plastic is infamous for its permanence: it doesn’t break down naturally, and we have no real way to dispose of it aside from recycling it into new plastics. The recycling process is expensive and can produce toxic chemicals. Over time it also degrades the quality of the recycled plastic, making it further unsustainable, making the only real way to dispose of plastic to stop using it all together. Paper on the other hand is not much better. Not only does it take an enormous amount of water and energy to create paper, but it deprives us of another crucial resource: trees. Despite this, 42% of all global wood harvest goes towards paper. We cannot afford to treat either of these materials as disposable in the face of their impending consequences. While some of the waste directly from “disposable” products that we have bought, the vast majority of it enters our house in a way that is difficult to avoid: food wrapping. The first obvious step is to stop the little bit that we are directly contributing. No more solo cups, or paper towels, or anything else that could be replaced with a more permanent alternative. The simplest solution to the food packaging issue is to buy in bulk or shop somewhere that lets you bring your own containers. While I know that the Ingles in Franklin and Clayton sell nuts and things in bulk, I'm not sure that this is a feasible alternative for all of the products that we consume. Ultimately it is the best first step that I can think of, short of making everything we ever use from scratch."
+			}
+		]
 	});
 });
 

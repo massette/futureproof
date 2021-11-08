@@ -1,0 +1,45 @@
+doctype html
+html
+	head
+		meta(charset="UTF-8")
+		
+		title= title
+
+		link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
+		link(rel="stylesheet", href="../css/style.css", type="text/css")
+	body
+		.splash(style="text-align: center;")
+				img(src="images/factorio.png")
+				p
+					span "A carbon footprint measures the total greenhouse gas emissions caused directly and indirectly by a person, organisation, event or product. " 
+					a.link.link--head(href="https://www.carbontrust.com/resources/carbon-footprinting-guide", target="_blank") - Carbon Trust
+				
+				p At this point in human history, we are consuming more electricity and water than the world has space to produce and generating more pollution than we can safely handle: <b>We are unsustainable.</b>
+				
+				p 
+					span Most direct contributions to these habits happen behind the scenes of many of the products we consume: 
+					a.link.link--head(href="https://www.intechopen.com/chapters/71931", target="_blank") strip mining
+					span , 
+					a.link.link--head(href="https://www.epa.gov/uog", target="_blank") fracking
+					span , and 
+					a.link.link--head(href="https://www.transportenvironment.org/challenges/ships/greenhouse-gases/", target="_blank") shipping.
+				
+				p As individuals there is little we can do to stop these practices,
+			
+		.pagehead
+			h1.pagehead__title= title
+			.pagehead__nav
+				a.pagehead__navlink.pagehead__navlink--icon.pagehead__navlink--active(href="/") home
+				a.pagehead__navlink(href="/elec") Electricity
+				a.pagehead__navlink(href="/trans") Transportation
+				a.pagehead__navlink(href="/water") Water
+				a.pagehead__navlink(href="/waste") Waste
+		
+		.pagebody
+			p Over the past few months, I have performed a series of 
+			ul
+				li Summarize Electricity Audit.
+				li Summarize Transportation Audit.
+				li Summarize Water Audit.
+				li Summarize Waste Audit.
+			a.link(href="https://css.umich.edu/factsheets/carbon-footprint-factsheet") Center for Sustainable Systems

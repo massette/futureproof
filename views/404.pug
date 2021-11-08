@@ -1,0 +1,20 @@
+doctype html
+html
+	head
+		meta(charset="UTF-8")
+		
+		title= title
+
+		link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
+		link(rel="stylesheet", href="../css/style.css", type="text/css")
+	body
+		.pagehead
+			h1.pagehead__title= title
+			.pagehead__nav
+				a.pagehead__link.pagehead__link--icon(href="/") home
+				a.pagehead__link(href="/elec") Electricity
+				a.pagehead__link(href="/trans") Transportation
+				a.pagehead__link(href="/water") Water
+				a.pagehead__link(href="/waste") Waste
+		
+		.pagebody.pagebody--state-error 404: Page Not Found.

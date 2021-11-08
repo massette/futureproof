@@ -10,18 +10,19 @@ html
 	
 	body
 		.splash
-			each element in splash
-				if element.tag == "img"
-					img(class=element.class, src=element.src)
-				else if element.body
-					p(class=element.class) !{element.body}
-				else
-					br
+			if subtitle
+				h2.pagehead__subtitle - #{subtitle} -
+			if splash
+				each element in splash
+					if element.tag == "img"
+						img(class=element.class, src=element.src)
+					else if element.body
+						p(class=element.class) !{element.body}
+					else
+						br
 		
 		.pagehead
 			h1.pagehead__title= title
-			if subtitle
-				h2.pagehead__subtitle= subtitle
 			.pagehead__nav
 				unless subtitle
 					a.pagehead__navlink.pagehead__navlink--icon.pagehead__navlink--active(href="/") home

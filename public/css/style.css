@@ -73,6 +73,11 @@ body {
 	padding: 0.5rem;
 	padding-bottom: 1rem;
 }
+.pagehead__subtitle {
+	padding: 0;
+	margin: 0;
+}
+
 .pagehead__nav {
 	padding-bottom: 0.7rem;
 	

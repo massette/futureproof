@@ -40,7 +40,7 @@ App.get("/", function(req, res, next) {
 			},
 			{},
 			{
-				"body": "Most of the factors affecting our carbon footprint are outside of our control. This makes it all the more important that we do everything that we can to reduce the things that we do have control over."
+				"body": "As individuals, most of the factors affecting our carbon footprint are outside of our control. This makes it all the more important that we do everything that we can to reduce the things that we do have control over."
 			}
 		],
 		
@@ -62,19 +62,39 @@ App.get("/", function(req, res, next) {
 });
 
 App.get("/elec", function(req, res, next) {
-	res.status(200).render("elec", { "title": "The Future Proof: Electricity." });
+	res.status(200).render("page", {
+		"title": "The Future Proof",
+		"subtitle": "Electricity",
+		
+		"body": []
+	});
 });
 
 App.get("/trans", function(req, res, next) {
-	res.status(200).render("index", { "title": "The Future Proof: Transportation." });
+	res.status(200).render("page", {
+		"title": "The Future Proof",
+		"subtitle": "Transportation",
+		
+		"body": []
+	});
 });
 
 App.get("/water", function(req, res, next) {
-	res.status(200).render("index", { "title": "The Future Proof: Water." });
+	res.status(200).render("page", {
+		"title": "The Future Proof",
+		"subtitle": "Water",
+		
+		"body": []
+	});
 });
 
 App.get("/waste", function(req, res, next) {
-	res.status(200).render("index", { "title": "The Future Proof: Waste." });
+	res.status(200).render("page", {
+		"title": "The Future Proof",
+		"subtitle": "Waste",
+		
+		"body": []
+	});
 });
 
 App.get("*", function(req, res, next) {

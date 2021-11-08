@@ -28,6 +28,22 @@ App.get("*", function(req, res, next) {
 	res.status(404).render("404", { "title": "The Future Proof?" });
 });
 
+App.get("/elec", function(req, res, next) {
+	res.status(200).render("elec", { "title": "The Future Proof: Electricity." });
+});
+
+App.get("/trans", function(req, res, next) {
+	res.status(200).render("index", { "title": "The Future Proof: Transportation." });
+});
+
+App.get("/water", function(req, res, next) {
+	res.status(200).render("index", { "title": "The Future Proof: Water." });
+});
+
+App.get("/waste", function(req, res, next) {
+	res.status(200).render("index", { "title": "The Future Proof: Waste." });
+});
+
 // start the app
 App.listen(PORT, function() {
 	console.log("Listening on port: " + PORT);

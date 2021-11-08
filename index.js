@@ -68,7 +68,26 @@ App.get("/elec", function(req, res, next) {
 		
 		"body": [
 			{
-				"body": "Electricity has become such a significant part of daily life that we can no longer afford to ignore its sources and their consequences. In 2019, the US Energy Information Administration averaged the amount of CO2 produced per kilowatt-hour as 0.92 pounds, which totals about the same amount per day as burning a gallon of gasoline. Although we can hide behind the idea that the world is moving towards more sustainable methods of energy production, any source’s environmental impacts will be directly proportional to the amount of electricity we need to generate, so reducing the amount of energy we use will help no matter what developments may occur, especially because lower energy requirements will allow these developments to happen much more readily. In my household, the most significant contributors to our electricity consumption are lighting and water heating which collectively take up more than a quarter of the measured appliances’ power consumption. The first and simplest change to implement is to turn off the lights in rooms that we aren’t in.We’ve recently moved into a spooky little historic house, and on account of its spookiness, we tend to leave lights on without thinking about it. Although I don’t have any hard numbers on how much this would reduce our electricity consumption, it would be no more than 1.352 kilowatt-hours per day since that’s the amount that already goes to lighting our house. Of the two largest consumers -- the refrigerator and the water heater -- the water heater seems much easier to address. There are a lot of little changes we can make to reduce the water heater’s consumption of electricity, such as lowering its temperature to just lukewarm, as well as actually figuring out how the faucets in this house work, because they tend to be a bit temperamental, and we waste a lot of warm water every time we just turn them randomly and hope it works out. Once again, there aren't really any hard numbers for this idea, but it would be some amount less than 2.07 kilowatt-hours per day. This means a total reduction of at most 3.422 kilowatt-hours per day, or 1249.03 kilowatt-hours per year. Using the US Energy Information Administration’s 2019 estimate of CO2 produced per kilowatt-hour of power generated, this could result in as much as a 1149.12 pound decrease in our carbon footprint."
+				"body": "<b>Electricity is produced in many ways, all of which have some kind of environmental impact. While changing to a more sustainable means of producing energy sounds like a cure-all to the issue of energy production, there is no match for reducing our use, since whatever form of energy we settle on will have consequences, and they will be proportional to the amount of energy being consumed. Some ways to reduce the electricity we consume.</b>"
+			},
+			{},
+			{
+				"body": "Turn off appliances that aren't in use. e.g. lights, a/c, heaters. This is the simplest way to reduce your electricity consumption.",
+			},
+			{
+				"tag": "cards",
+				"cards": [
+					"<b>In my home, we leave a lot of lights on. By turning them all off, we reduce the amuont of energy we're consuming to the amount that we're actually using.</b>"
+				]
+			},
+			{
+				"body": "Once you've reduced your electricity consumption to things that you are actually using, look into ways to make your appliances more efficient. e.g. programmable led bulbs, a/c, insulation. By reducing the time that you run these appliances for or the power that they take to run, you will further decrease your electricity consumption."
+			},
+			{
+				"tag": "cards",
+				"cards": [
+					"<b>A really simple example of this is lowering the temperature of your water heater to the lowest setting that you can comfortably use.</b>"
+				]
 			}
 		]
 	});

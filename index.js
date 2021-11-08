@@ -100,7 +100,26 @@ App.get("/trans", function(req, res, next) {
 		
 		"body": [
 			{
-				"body": "The combustion of gasoline in our cars’ engines produces many harmful pollutants, one of the most well-known being carbon dioxide, as well as nitrogen oxides and sulfur. These pollutants contribute to both climate change and acid rain. By reducing our mileage, we can reduce our contributions to these issues. Furthermore, the extraction and refining of crude oil are costly and unsustainable operations. It requires tremendous amounts of energy and water, and by reducing our dependence on petroleum based products, we would reduce the need for these processes and reduce the strain they put on energy and water resources. Although my household only owns one car, and we don’t really fly anywhere, we make a lot of unnecessary trips. One of the biggest contributors to our mileage is trips to Duluth. Because we recently moved, we still have a lot of connections there, so we often end up going back and forth as many as 10 time a month. That is 120 trips a year, and even assuming a low estimate of 200 miles for the round trip, that totals 24,000 miles per year going back and forth to Duluth. There are many things we go to Duluth for that we could find replacements for closer to Rabun. For example, we still visit our old veterinarian in Buford, even though there are certainly veterinarians in the local area. Even if we were only able to reduce the number of trips to once per week, that would result in a reduction of 13,600 miles per year. Using the mileage for our car that we found in class, we can find the reduction in gallons of gas burned, we get a reduction of 503.7 gallons of gas per year. Going off of the US Energy Information Administration's estimate of carbon dioxide produced by burning gasoline, this would be a reduction of 8,905.42 pounds of carbon dioxide, as well as $1,661.71 that we wouldn’t spend on gas, going by the AAA average gas price in Rabun county."
+				"body": "<b>Transportation is one of the more intuitive ways that we affect our carbon footprint. Beyond the simple consequences of burning gasoline, the extraction and refining of fossil fuels is inherently unsustainable because its a limitted resource. Although my household only really uses one mode of transport, we make a lot of unecessary trips.</b>"
+			},
+			{},
+			{
+				"body": "The simplest way to reduce the amount of pollution you generate from transportation is to avoid unnecessary trips. This includes plane flights and just long drives, as these both tend to accumulate pretty quickly."
+			},
+			{
+				"tag": "cards",
+				"cards": [
+					"<b>My family moved recently, and we often drive back to the area we used to live in. This is around 100 miles that we drive semi-regularly, contributing a massive ammount to our carbon footprint that we don't need to be doing.</b>"
+				]
+			},
+			{
+				"body": "It is important to keep short recurrent trips in mind as well, as they can accumulate over time, and be just as damaging as long trips in the long run."
+			},
+			{
+				"tag": "cards",
+				"cards": [
+					"<b>Because we used to live in a much more urban area, my family is used to just going into the city. However, it is about a 12 mile drive away from us. While this isn't by any means an exhaustive distance to travel, we travel it practically daily, contributing about half the amount of carbon as the trips to where we used to live. </b>"
+				]
 			}
 		]
 	});

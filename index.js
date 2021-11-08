@@ -16,16 +16,12 @@ App.use(EXPRESS.static(PATH.join(__dirname, "public")));
 
 // routing stuff
 App.use("/", function(req, res, next) {
-	console.log("ACCESSED " + req.url);
+	console.log(req.method + " " + req.url);
 	next();
 });
 
 App.get("/", function(req, res, next) {
 	res.status(200).render("index", { "title": "The Future Proof." });
-});
-
-App.get("*", function(req, res, next) {
-	res.status(404).render("404", { "title": "The Future Proof?" });
 });
 
 App.get("/elec", function(req, res, next) {
@@ -42,6 +38,10 @@ App.get("/water", function(req, res, next) {
 
 App.get("/waste", function(req, res, next) {
 	res.status(200).render("index", { "title": "The Future Proof: Waste." });
+});
+
+App.get("*", function(req, res, next) {
+	res.status(404).render("404", { "title": "The Future Proof?" });
 });
 
 // start the app

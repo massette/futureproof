@@ -1,0 +1,60 @@
+doctype html
+html
+	head
+		meta(charset="UTF-8")
+		
+		title= title
+
+		link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
+		link(rel="stylesheet", href="../css/style.css", type="text/css")
+	
+	body
+		.splash
+			each element in splash
+				if element.tag == "img"
+					img(class=element.class, src=element.src)
+				else if element.body
+					p(class=element.class) !{element.body}
+				else
+					br
+		
+		.pagehead
+			h1.pagehead__title= title
+			if subtitle
+				h2.pagehead__subtitle= subtitle
+			.pagehead__nav
+				unless subtitle
+					a.pagehead__navlink.pagehead__navlink--icon.pagehead__navlink--active(href="/") home
+				else
+					a.pagehead__navlink.pagehead__navlink--icon(href="/") home
+				
+				if subtitle == "Electricity"
+					a.pagehead__navlink.pagehead__navlink--active(href="/elec") Electricity
+				else
+					a.pagehead__navlink(href="/elec") Electricity
+				
+				if subtitle == "Transportation"
+					a.pagehead__navlink.pagehead__navlink--active(href="/trans") Transportation
+				else
+					a.pagehead__navlink(href="/trans") Transportation
+				
+				if subtitle == "Water"
+					a.pagehead__navlink.pagehead__navlink--active(href="/water") Water
+				else
+					a.pagehead__navlink(href="/water") Water
+				
+				if subtitle == "Waste"
+					a.pagehead__navlink.pagehead__navlink--active(href="/waste") Waste
+				else
+					a.pagehead__navlink(href="/waste") Waste
+		
+		.pagebody
+			each element in body
+				if element.tag == "cards"
+					ul.cardlist
+						each card in element.cards
+							li.cardlist__card !{card}
+				else if element.body
+					p(class=element.class) !{element.body}
+				else
+					br

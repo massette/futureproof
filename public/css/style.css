@@ -50,6 +50,8 @@ body {
 	background: var(--color-head-bg);
 	color: var(--color-head-fg);
 	
+	text-align: center;
+	
 	padding: 2rem;
 }
 
@@ -103,12 +105,14 @@ body {
 	font: var(--font-icon);
 }
 
-.pagehead__navlink:not(.pagehead__link--active):hover {
+.pagehead__navlink:not(.pagehead__navlink--active):hover {
 	bottom: 0;
 }
 
 
 .pagebody {
+	min-height: 85vh;
+	
 	padding: 2rem;
 }
 
